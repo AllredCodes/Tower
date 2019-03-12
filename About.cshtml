@@ -1,35 +1,61 @@
 ﻿@{
     Layout = "~/_SiteLayout.cshtml";
-    Page.Title = "About";
+    Page.Title = "About the Author";
 }
 
-<hgroup class="title">
-    <h1>@Page.Title.</h1>
-    <h2>Your app description page.</h2>
-</hgroup>
+@section featured {
+    <section class="featured">
+        <br/>
+    </section>
+}
 
-<article>
-    <p>
-        Use this area to provide additional information.
-    </p>
 
+<section class="contact">
+    <header>
+        <h3>Phone:</h3>
+    </header>
     <p>
-        Use this area to provide additional information.
+        <span class="label">Main:</span>
+        <span>425.555.0100</span>
     </p>
+    <p>
+        <span class="label">After Hours:</span>
+        <span>425.555.0199</span>
+    </p>
+</section>
 
+<section class="contact">
+    <header>
+        <h3>Email:</h3>
+    </header>
     <p>
-        Use this area to provide additional information.
+        <span class="label">Support:</span>
+        <span><a href="mailto:Support@example.com">Support@example.com</a></span>
     </p>
-</article>
+    <p>
+        <span class="label">Marketing:</span>
+        <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
+    </p>
+    <p>
+        <span class="label">General:</span>
+        <span><a href="mailto:General@example.com">General@example.com</a></span>
+    </p>
+</section>
 
-<aside>
-    <h3>Aside Title</h3>
-    <p>
-        Use this area to provide additional information.
-    </p>
-    <ul>
-        <li><a href="~/">Home</a></li>
-        <li><a href="~/About">About</a></li>
-        <li><a href="~/Contact">Contact</a></li>
-    </ul>
-</aside>
+
+<style>
+    .featured {
+        background-image: url("/Images/DeskCropped2.jpg");
+        height: 50%;
+        background-position-x: center;
+        background-position-y: 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    br {
+        line-height: 1200%;
+    }
+
+</style>
