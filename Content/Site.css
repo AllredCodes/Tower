@@ -103,10 +103,6 @@ h5, h6 {
     padding-bottom: 35px;
 }
 
-header .content-wrapper {
-    padding-top: 20px; 
-}
-
 footer {
     clear: both;
     background-color: #e2e2e2;
@@ -156,7 +152,7 @@ ul#menu li a {
 }
 
 ul#menu li a:hover {
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -186,6 +182,30 @@ ul#menu li a:hover {
 .featured p {
     font-size: 1.1em;
 }
+
+
+
+/* Page Banners
+----------------------------------------------------------*/
+#SiteBanner {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    padding: 38px;
+}
+
+#aboutBanner{
+    background-image: url("/Images/DeskCropped2.jpg");
+    background-position-y: 65%;
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top:150px;
+}
+
+
 
 /* page titles */
 hgroup.title {
