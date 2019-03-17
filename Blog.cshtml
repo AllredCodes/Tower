@@ -5,32 +5,60 @@
 
 @section featured {
     <div id="blogBanner">
-            <h1><span>&nbsp; Painting Blog &nbsp;</span></h1>
+            <h1><span>&nbsp; Hobby Blog &nbsp;</span></h1>
     </div>
 }
 
 
 
-<article>
-    <p>
-        Use this area to provide additional information.
-    </p>
+
+<div class="row" id="blogPage">
+    <div class="leftcolumn">
+
+        <div class="card">
+            <h2>Test Post</h2>
+            <h5>Just checking the tire pressure, March 17, 2019</h5>
+
+            <img id="blogImage" src="~/Blog Posts/Blog Images/NMM First Go.jpg" alt="Non-Metallic Metal" style="width:100%;max-width:300px" />                
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <p>This is the first post!</p>
+            <p>And to be honest, the substance isn't really much to mention. I'm just using this to hold a place on the page while I work out the format. 
+               But I'll add a picture of a figure I did a while ago when I was learning non-metallic metal painting!</p>
+        </div>
+
+        <!-- Up to 5 posts will be here. After that, the pages will be accessable from the right side column where different posts can be picked by date.-->
 
 
-    <p>
-        Use this area to provide additional information.
-    </p>
-</article>
 
-<aside>
-    <h3>Aside Title</h3>
-    <p>
-        Use this area to provide additional information.
-    </p>
-    <ul>
-        <li><a href="~/">Home</a></li>
-        <li><a href="~/About">About</a></li>
-        <li><a href="~/Contact">Contact</a></li>
-    </ul>
-</aside>
 
+
+
+
+    </div>
+
+
+    <div class="rightcolumn">               
+        <div class="card">
+            <h3>Popular Post</h3>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div>
+        </div>
+
+        <div class="card">
+            <h3>Follow Me on Instagram for more frequent updates!</h3>
+            <a href="https://www.instagram.com/painterly_wise/">
+                <img src="~/Blog Posts/Blog Images/Instagram Logo.png" alt="Instagram" height="150" width="150" />
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/BlogModalBehavior.js"></script>
