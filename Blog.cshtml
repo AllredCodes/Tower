@@ -2,6 +2,7 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Blog";
 }
+<script src="~/Scripts/IncludeHTML.js"></script>
 
 @section featured {
     <div id="blogBanner">
@@ -27,7 +28,7 @@
             </div>
 
             <p>This is the first post!</p>
-            <p>And to be honest, the substance isn't really much to mention. I'm just using this to hold a place on the page while I work out the format. 
+            <p>And to be honest, there really isn't much to say. I'm just using this to hold a place on the page while I work out the format. 
                But I'll add a picture of a figure I did a while ago when I was learning non-metallic metal painting!</p>
         </div>
 
@@ -42,23 +43,27 @@
     </div>
 
 
-    <div class="rightcolumn">               
+
+
+    <div class="rightcolumn">
         <div class="card">
-            <h3>Popular Post</h3>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div><br>
-            <div class="fakeimg">Image</div>
+            <h4>Older Posts</h4>
+
+            <!-- I expect this will be bloated over time, so I put it elsewhere. -->
+            <div w3-include-html="Blog Posts/BlogPostDropdown.html"></div>
+            <script> includeHTML(); </script>
         </div>
 
         <div class="card">
             <h3>Follow Me on Instagram for more frequent updates!</h3>
             <a href="https://www.instagram.com/painterly_wise/">
-                <img src="~/Blog Posts/Blog Images/Instagram Logo.png" alt="Instagram" height="150" width="150" />
+                <img id="InstagramLogo" src="Blog Posts/Blog Images/instagram logo.png" alt="Instagram" />
             </a>
         </div>
     </div>
+
 </div>
 
-
-
 <script src="~/Scripts/BlogModalBehavior.js"></script>
+
+<script src="~/Scripts/DropDownBehavior.js"></script>

@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Blog";
+}
+
+@section featured {
+    <div id="blogBanner">
+        <h1><span>&nbsp; Hobby Blog &nbsp;</span></h1>
+    </div>
+}
+<script src="~/Scripts/IncludeHTML.js"></script>
+
+<div class="row" id="blogPage">
+    <div class="leftcolumn">
+
+        <div class="card">
+            <h2>Test Post</h2>
+            <h5>Just checking the tire pressure, March 17, 2019</h5>
+
+            <img id="blogImage" src="~/Blog Posts/Blog Images/NMM First Go.jpg" alt="Non-Metallic Metal" style="width:100%;max-width:300px" />
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+
+            <p>This is the first post!</p>
+            <p>
+                And to be honest, there really isn't much to say. I'm just using this to hold a place on the page while I work out the format.
+                But I'll add a picture of a figure I did a while ago when I was learning non-metallic metal painting!
+            </p>
+        </div>
+
+    </div>
+    
+
+
+    <div class="rightcolumn">
+        <div class="card">
+            <!-- I expect this will be bloated over time, so I put it elsewhere. -->
+            <div w3-include-html="BlogPostDropdown.html"></div>
+            <script> includeHTML(); </script>
+
+        </div>
+
+        <div class="card">
+            <h3>Follow Me on Instagram for more frequent updates!</h3>
+            <a href="https://www.instagram.com/painterly_wise/">
+                <img id="InstagramLogo" src="Blog Images/instagram logo.png" alt="Instagram" />
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/BlogModalBehavior.js"></script>
