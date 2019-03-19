@@ -1,44 +1,78 @@
 ﻿@{
     Layout = "~/_SiteLayout.cshtml";
-    Page.Title = "About the Author";
+    Page.Title = "About";
 }
 
 @section featured {
     <div id="aboutBanner">
-        <h1><span>&nbsp; About the Author &nbsp;</span></h1>
+        <h1><span>&nbsp;About&nbsp;</span></h1>
     </div>
 }
 
 
-<section class="contact">
-    <header>
-        <h3>Phone:</h3>
-    </header>
-    <p>
-        <span class="label">Main:</span>
-        <span>425.555.0100</span>
-    </p>
-    <p>
-        <span class="label">After Hours:</span>
-        <span>425.555.0199</span>
-    </p>
+<section id="AboutTheAuthor">
+    <h2>About the Author</h2>
+    <div>      
+        <p>
+            <img id="AboutImage" src="~/Images/Danharmon.jpg" />
+            Yo. I'm <strong>Daniel Allred</strong>, the fellow who made this tower. Er.. Maybe "is currently making" is probably more appropriate.
+            I'm a happily married, 20-something year old programmer by trade but not by passion. Frankly, I would much prefer to build stuff and make up stories than code,
+            but my happiness doesn't pay the bills. Y'all know how it is. I'm addled with physical and mental health problems from DDD(degenerative disk disease) to dyslexia, ADD, 
+            and crippling anxiety/depression because <em>I'm a 20-something year old and it's @DateTime.Now.Year, so of course I am.</em>
+        </p>
+        
+        <p>
+            I graduated with honors from The University of Southern Mississippi with a degree in Computer Science. The "with honors" bit is nice to say, but it doesn't really
+            help with much. I really dragged my feet through high school and before, which is to say I got miserable grades and didn't care about learning. This was a lot to do
+            with untreated ADD and dyslexia making me feel inadequate and unwilling to really try for fear of failing. Moving on to college I realized that failure wasn’t anything 
+            to be scared of and was even a useful learning tool so long as I didn’t beat myself down over it. With a new lease on my own personal shortcomings, I gave college my best go.
+        </p>
+
+        <p>
+            Another little college thing I like to mention was that I started out as an art major, but changed to computer science within my first week of college. I was one of 
+            the lucky sorts who realized that there really isn’t stable work for visual art degrees and I probably just wouldn’t have the hustle in me to make a living off of commissions.
+        </p>
+
+        <p>
+            I'm currently working at some data company in Charlotte, North Carolina. My current ambition is to see my wife through her accounting degree and start saving up for us 
+            to own our very own business: a hobby shop/ caf&eacute;. 
+        </p>
+
+        <p>
+            On a personal interest level, I've been Dungeon Mastering since I was about 12, which has been a tremendous journey. I love Tabletop Roleplaying games of all types. 
+            I’m big into miniature painting also of all types. Despite being 6.5”, never drinking anything alcoholic, and shaving every other day, my fantasy race identification 
+            is still the <em>stout, honorable, and stubborn dwarf.</em>
+        </p>
+
+    </div>
 </section>
 
-<section class="contact">
-    <header>
-        <h3>Email:</h3>
-    </header>
-    <p>
-        <span class="label">Support:</span>
-        <span><a href="mailto:Support@example.com">Support@example.com</a></span>
-    </p>
-    <p>
-        <span class="label">Marketing:</span>
-        <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
-    </p>
-    <p>
-        <span class="label">General:</span>
-        <span><a href="mailto:General@example.com">General@example.com</a></span>
-    </p>
-</section>
 
+<section id="AboutTheAuthor">
+    <h2>What's the deal with this website?</h2>
+    <div>
+        <p>
+            I bought this domain back when I was first looking for work out of college. I thought having a website might help my chances of getting a job, but as luck would have it,
+            I got hired a couple days after I got it. That meant that towerofillusion.com just kind of floated around, owned but empty. Lately, my work has been slow and I thought it would
+            be fun to try making something for the domain so here we are.
+        </p>
+
+
+        <h3>Illusion Lite</h3>
+        <p>
+            The name <em>Tower of Illusion</em> comes from a tabletop board game I worked long and hard on some time ago. I wanted a platform to put my work on so that people could see it
+            and access the components of the game for free. Like a russian nesting doll of incomplete projects, this also was brushed to the side when I found work. The game, Tower of 
+            Illusion, may very well be on an indefinite hiatus, but that doesn't mean it's forgotten. I gutted portions of the game's mechanics to build the tabletop roleplaying system 
+            "Tales of Illusion," whose mechanics were further distilled down into "Illusion Lite," which is a simple game system that can be found here! Maybe a little complicated? I 
+            probably should have held onto the russian nesting doll comparison for now… But hey! It’s free, and anything you could need to play it is here give it a shot if you want 
+            something fast paced, simple, and geared toward one night adventures.
+        </p>
+
+        <h3>Hobby Blog</h3>
+        <p>
+            Instagram isn’t really my thing, but I’ve been posting all of my painting there just to have them in one place so when someone asks “what do you do for fun” I can just show 
+            them my stuff all in one place. I wanted somewhere more personal to put more details per post, so this seemed like a good fit for that want.
+        </p>
+
+    </div>
+</section>

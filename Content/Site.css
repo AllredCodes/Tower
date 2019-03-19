@@ -82,10 +82,28 @@ h5, h6 {
     font-size: 1em;
 }
 
-    h5 a:link, h5 a:visited, h5 a:active {
-        padding: 0;
-        text-decoration: none;
-    }
+h5 a:link, h5 a:visited, h5 a:active {
+    padding: 0;
+    text-decoration: none;
+}
+
+#AboutTheAuthor p{
+    text-indent: 15px;
+    text-align: justify;
+}
+
+#AboutImage {
+    width: 100%;
+    max-width: 200px;
+    float: right;
+    border-radius: 100px;
+
+    padding-left:  35px;
+    padding-right: 35px;
+
+}
+
+
 
 
 /* main layout

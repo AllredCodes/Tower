@@ -25,10 +25,15 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    width:100%;
+    max-width:300px;
 }
+
+
 #blogPage img:hover {
     opacity: 0.7;
 }
+
 #InstagramLogo{
     height:auto;
     width: 100%;
@@ -69,19 +74,6 @@
     height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-#blogPage .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-    to {
-        transform: scale(1)
-    }
-}
 
 #blogPage .close1,
 #blogPage .close2,
@@ -147,4 +139,8 @@
 }
 #PostLevel a:hover {
     color: lightgrey;
+}
+
+details summary:focus {
+    outline:none;
 }
