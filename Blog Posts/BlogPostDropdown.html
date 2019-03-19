@@ -1,25 +1,15 @@
-﻿
+﻿<!-- Nested Drop downs for year -> month -> posts -->
 
-<!-- 
-<script src="~/Scripts/DropDownBehavior.js"></script>
-
-
-
-<button class="accordion">List of posts</button>
-<div class="panel">
-    <p>List Content.</p>
-</div>
-
-Nested Drop downs for year -> month -> posts -->
-
-<details>
+<details open>
     <summary>2019</summary>
-    
         <details >
+            
             <summary id="MonthLevel">March</summary>
-            <p id="PostLevel">First Post</p>
+            <div id="PostLevel">
+                <a href="/Blog Posts/March_19_2019.cshtml">  19th, Another Test Post  </a>  <br />
+                <a href="/Blog Posts/March_17_2019.cshtml">  17th, Test Post  </a>          <br />
+            </div>
+
+
         </details>
-
-
-
 </details>

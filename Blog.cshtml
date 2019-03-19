@@ -15,16 +15,33 @@
 
 <div class="row" id="blogPage">
     <div class="leftcolumn">
+        <!-- Up to 5 posts will be here. After that, the pages will be accessable from the right side column where different posts can be picked by date.-->
+
+        <div class="card">
+            <h2>Just Another Test Post</h2>
+            <h5>A dwari for your thoughts, March 19th, 2019</h5>
+
+            <img id="blogImage1" src="~/Blog Posts/Blog Images/Dwarf With Lantern.jpg" alt="Dwarf with Lantern" style="width:100%;max-width:300px" />
+            <div id="myModal1" class="modal">
+                <span class="close1">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+
+            <p>Yo! This is just another test for formatting's sake.</p>
+            <p>
+                Here's a dwarf I did after the NMM figure from last time. I think this is one of my favorite miniature sculpts of all time, but I'm a sucker for dwarfs.
+            </p>
+        </div>
+        
 
         <div class="card">
             <h2>Test Post</h2>
-            <h5>Just checking the tire pressure, March 17, 2019</h5>
+            <h5>Just checking the tire pressure, March 17th, 2019</h5>
 
-            <img id="blogImage" src="~/Blog Posts/Blog Images/NMM First Go.jpg" alt="Non-Metallic Metal" style="width:100%;max-width:300px" />                
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
+            <img id="blogImage2" src="~/Blog Posts/Blog Images/NMM First Go.jpg" alt="Non-Metallic Metal" style="width:100%;max-width:300px" />                
+            <div id="myModal2" class="modal">
+                <span class="close2">&times;</span>
+                <img class="modal-content" id="img02">
             </div>
 
             <p>This is the first post!</p>
@@ -32,14 +49,48 @@
                But I'll add a picture of a figure I did a while ago when I was learning non-metallic metal painting!</p>
         </div>
 
-        <!-- Up to 5 posts will be here. After that, the pages will be accessable from the right side column where different posts can be picked by date.-->
+        <!--
+        <div class="card">
+            <h2>Post Name</h2>
+            <h5>Post subname and date [month day, year]</h5>
+
+            <img id="blogImage3" src="~/Blog Posts/Blog Images/" alt="" style="width:100%;max-width:300px" />
+            <div id="myModal3" class="modal">
+                <span class="close3">&times;</span>
+                <img class="modal-content" id="img03">
+            </div>
+
+            <p></p>
+        </div>
 
 
+        <div class="card">
+            <h2>Post Name</h2>
+            <h5>Post subname and date [month day, year]</h5>
+
+            <img id="blogImage4" src="~/Blog Posts/Blog Images/" alt="" style="width:100%;max-width:300px" />
+            <div id="myModal4" class="modal">
+                <span class="close4">&times;</span>
+                <img class="modal-content" id="img04">
+            </div>
+
+            <p></p>
+        </div>
 
 
+        <div class="card">
+            <h2>Post Name</h2>
+            <h5>Post subname and date [month day, year]</h5>
 
+            <img id="blogImage5" src="~/Blog Posts/Blog Images/" alt="" style="width:100%;max-width:300px" />
+            <div id="myModal5" class="modal">
+                <span class="close5">&times;</span>
+                <img class="modal-content" id="img05">
+            </div>
 
-
+            <p></p>
+        </div>
+            -->
     </div>
 
 
@@ -65,5 +116,3 @@
 </div>
 
 <script src="~/Scripts/BlogModalBehavior.js"></script>
-
-<script src="~/Scripts/DropDownBehavior.js"></script>

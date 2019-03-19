@@ -21,7 +21,7 @@
 
 
 /* Image changes */
-#blogImage{
+#blogImage1, #blogImage2, #blogImage3, #blogImage4, #blogImage5 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -83,7 +83,11 @@
     }
 }
 
-#blogPage .close {
+#blogPage .close1,
+#blogPage .close2,
+#blogPage .close3,
+#blogPage .close4,
+#blogPage .close5 {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -93,8 +97,11 @@
     transition: 0.3s;
 }
 
-#blogPage .close:hover,
-#blogPage .close:focus {
+#blogPage .close1:hover, #blogPage .close1:focus, 
+#blogPage .close2:hover, #blogPage .close2:focus,
+#blogPage .closs3:hover, #blogPage .close3:focus,
+#blogPage .close4:hover, #blogPage .close4:focus,
+#blogPage .close5:hover, #blogPage .close5:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -106,37 +113,6 @@
         width: 100%;
     }
 }
-
-
-/* Accordion Style */
-#blogPage .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-#blogPage .active, .accordion:hover {
-    background-color: #ccc;
-}
-
-#blogPage .panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-
-
-
 
 
 /* Clear floats after the columns */
@@ -156,10 +132,19 @@
 }
 
 
+/* Side bar for older posts */
 #MonthLevel{
-    text-indent: 10px;
+    padding-left: 10px;
+}
+#PostLevel {
+    padding-left: 20px;
 }
 
-#PostLevel{
-    text-indent: 10px;
+#PostLevel a{
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+#PostLevel a:hover {
+    color: lightgrey;
 }
