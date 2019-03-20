@@ -2,6 +2,7 @@
     Layout = "~/_SiteLayout.cshtml";
     Page.Title = "Illusion Lite";
 }
+<script src="~/Scripts/IncludeHTML.js"></script>
 
 @section featured {
     <div id="liteBanner">
@@ -9,6 +10,27 @@
     </div>
 }
 
-<div>
-    You found me. This is the Lite page.
+
+<div class="leftcolumn">
+    <div class="card">
+        <div>
+            <h2>Introduction to Illusion Lite</h2>
+
+            <p>
+                You found me. This is the Lite page.
+            </p>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="rightcolumn">
+    <div class="card">
+        <div w3-include-html="Illusion Lite Pages/IllusionLiteNavigationBar.html"></div>
+        <script> includeHTML(); </script>
+
+    </div>
 </div>

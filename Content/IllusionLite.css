@@ -1,0 +1,45 @@
+﻿/* Create two unequal columns that floats next to each other */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+.rightcolumn {
+    float: right;
+    width: 24%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), white);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Details Style for Page Navigation */
+#GroupLevel {
+    padding-left: 5px;
+    background-color: lightgray;
+}
+#PageLevel {
+    padding-left: 15px;
+}
+
+#PageLevel a {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+
+#PageLevel a:hover {
+    color: lightgrey;
+}
+
+details summary:focus {
+    outline: none;
+}
+details summary:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}

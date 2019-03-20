@@ -144,3 +144,8 @@
 details summary:focus {
     outline:none;
 }
+
+details summary:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
