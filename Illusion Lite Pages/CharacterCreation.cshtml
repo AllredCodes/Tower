@@ -12,7 +12,7 @@
 
 
 <div class="leftcolumn">
-    <div class="card">
+    <div class="card" id="CharacterCreation">
         <div>
             <h2>Character Creation</h2>
 
@@ -22,23 +22,147 @@
                 making a diverse group of characters without too much overlapping aptitudes, so they can more effectively tackle a wide array of challenges.
             </p>
             
+
+            The character creation process goes as follows, with each step being further detailed below;
+            
             <ul>
-                The character creation process goes as follows, with each step being further detailed below;
-                <li></li>
+                <li>Picking a Race</li>
+                <li>Generating Attribute Scores</li>
+                <li>Choosing an Identity</li>
+                <li>Spending Skill Points</li>
+                <li>Selecting Character Features</li>
+                <li>Generating Starting Wealth</li>
             </ul>
-
-
-
         </div>
     </div>
+    
+    
+    <div class="card" id="PickRace">
+        <h2>Picking a race</h2>
+
+        <p>
+            A large part of character creation in Illusion is selecting your character’s race, as it provides an influence on your character’s attribute 
+            scores and their roleplaying direction. While there are only six races present in Illusion, as shown in the table below, players are invited to 
+            create their own races, or modify the existing ones, so long as the other players at the table, specifically the Game Master, are okay with it. 
+            Each character is required to have one race attributed to their character, no more, no less.
+        </p>
+
+        <p>
+            Presented below are the mechanical effects of each race, but those interested in more details regarding each race's personality and fixture in the 
+            World of Illusion can refer to the "Races" section under the core rules.
+        </p>
+        
+        <table>
+            <tr>
+                <th>Race</th> <th>Bonus</th> <th>Penalty</th>
+            </tr>
+            <tr>
+                <td>Dwarf</td>
+                <td>Can distribute 2 points between Vigor and Reason</td>
+                <td>Starting Control is reduced by 1</td>
+            </tr>            
+            <tr>
+                <td>Elf</td>
+                <td>Can distribute 2 points between Control and Logic</td>
+                <td>Starting Vigor is reduced by 1</td>
+            </tr>
+            <tr>
+                <td>Half-Elf</td>
+                <td>Starting Disposition is improved by 1, and any one attribute is improved by 1</td>
+                <td>Reduce any one attribute by 1 point</td>
+            </tr>
+            <tr>
+                <td>Halfling</td>
+                <td>Can distribute 2 points between Control and Disposition</td>
+                <td>Starting Might is reduced by 1</td>
+            </tr>
+            <tr>
+                <td>Half-Orc</td>
+                <td>Can distribute 2 points among all attributes</td>
+                <td>Starting Disposition is reduced by 1</td>
+            </tr>
+            <tr>
+                <td>Human</td>
+                <td>Improve any one attribute by 1 point</td>
+                <td><em>None</em></td>
+            </tr>
+        </table>
+
+        <p>
+            Players might also take this time to flesh out the core concept of their character's personality. What motivates them? What do they do for a living? What are they good and bad at?
+            There's plenty of ways one can make their character more than just a list of numbers and tags. Discuss with the other players who the character's are and why they're adventuring together!
+        </p>
+    </div>
+
+
+    <div class="card" id="GenerateAttributes">
+        <div>
+            <div>
+                <h2>Generating Attribute Scores</h2>
+
+                <p>
+                    Once everyone has their character idea decided on, all the players will next decide on their attribute scores. There are 6 primary attributes
+                    in Illusion: Might, Control, Vigor, Logic, Reason, and Disposition. These are detailed in the [section on attributes]. These attributes are fairly typical for
+                    table top games, and likely mean exactly what one first thinks upon reading them. The primary attributes scores are intended to be generated randomly as detailed 
+                    below. Players must generate 6 numbers and then either apply them to the attributes in the order they were generated, or choose which attribute to apply each score to.
+                </p>
+
+                <h3>Generation</h3>
+                <p>
+                    During score generation and before applying racial bonuses, each attribute score can range from 2 to 5. Should a score be raised
+                    over 5, or lowered below 2, the overflow is ignored and the score is set to the closest value within the accepted range, either 5 or 2. Because of this, there are
+                    2 reccomended ways to generate these numbers; Roll 6, 4-sided dice (d4) and add 1 to each result, <strong>or</strong> roll 6, 6-sided dice (d6) and reroll all results 
+                    of 1 or 6. Both of these methods have the same odds for each result and it really comes down to what your group prefers to roll between d4s and d6s. Write down the 
+                    resulting number sets on some scratch paper and move on to applying the scores.
+                </p>
+
+                <div class="subCard">
+                    <h3><em>Optional</em></h3>
+                    <p>
+                        Some players find random stat generation to be unfair and prefer to use "stat arrays" so that every player character at the table is on equal footing. That's just fine,
+                        though it can dilude some other character mechanics. The array used should fall into the same range as rolled scores- I would recommend using the array 
+                        <strong>[2, 3, 3, 4, 4, 5]</strong>, though players are welcome to come up with their own. Simply ignore the generation step and predend these were the scores generated for each player, and apply them.
+                    </p>
+                </div>
+
+                <h3>Application</h3>
+                <p>
+                    Once the 6 numbers are generated, they're distributed among the attributes, one to one. Once all the scores are distributed, racial bonuses are applied, which can result
+                    in scores totaling over 5 or under 2, which is acceptable at this step in the process.
+                </p>
+                
+                <h3>Determining Secondary Attributes</h3>
+                <p>
+                    Secondary attributes are scores that are derived from the primary attributes generated above. The meaning and application of these scores are detailed in the [second on
+                    attributes], but to determine what their actual values are, refer to the outline below;
+
+                    <ul>
+                        <li><strong>Resistance:</strong>  10 + Might Score + Vigor Score</li>
+                        <li><strong>Agility:</strong>     10 + Control Score + Logic Score</li>
+                        <li><strong>Resolve:</strong>     10 + Disposition Score + Reason Score</li>
+                        <li><strong>Development:</strong> All attribute scores summed</li>
+                        <li><strong>Destiny:</strong>     [Not yet determined]</li>
+                        <li><strong>Health:</strong>      2 + Might Score + Vigor Score</li>
+                        <li><strong>Movement:</strong>    1 + Agility Score</li>
+                    </ul>
+
+                    Once players are done determining their secondary attributes, they will be ready to move on to the next step of character creation. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" id="PickIdentity">
+        <h2>Choosing an Identity</h2>
+    </div>
+
+
 </div>
 
 
-
 <div class="rightcolumn">
-    <div class="card">
-        <div w3-include-html="Illusion Lite Pages/IllusionLiteNavigationBar.html"></div>
+    <div class="card" id="NavBar">
+        <div w3-include-html="~/Illusion Lite Pages/IllusionLiteNavigationBar.html"></div>
         <script> includeHTML(); </script>
-
     </div>
 </div>

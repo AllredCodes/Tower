@@ -6,8 +6,11 @@
 .rightcolumn {
     float: right;
     width: 24%;
-}
 
+    position: sticky;
+    top: 0;
+    padding-top: 50px;
+}
 
 /* Add a card effect for articles */
 .card {
@@ -15,7 +18,10 @@
     padding: 20px;
     margin-top: 20px;
 }
-
+.subCard {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), lightgrey);
+    padding: 5px;
+}
 
 /* Details Style for Page Navigation */
 #GroupLevel {
