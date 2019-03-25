@@ -21,6 +21,14 @@ a {
     text-decoration: underline;
 }
 
+h4 a{
+    text-decoration: none;
+}
+h4 a:hover {
+    color: lightgrey;
+}
+
+
 a:link, a:visited,
 a:active, a:hover {
     color: #333;
@@ -100,10 +108,6 @@ p{
     max-width: 200px;
     float: right;
     border-radius: 100px;
-
-    padding-left:  35px;
-    padding-right: 35px;
-
 }
 
 
@@ -234,20 +238,20 @@ ul#menu li a:hover {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), white);
 }
 
-    #aboutBanner {
-        background-image: url("/Images/DeskCropped2.jpg");
-        background-position-y: 65%;
-    }
-    
-    #blogBanner {
-        background-image: url("/Images/DeskCropped2.jpg");
-        background-position-y: 65%;
-    }
-    
-    #liteBanner {
-        background-image: url("/Images/DeskCropped2.jpg");
-        background-position-y: 65%;
-    }
+#aboutBanner {
+    background-image: url("/Images/DeskCropped2.jpg");
+    background-position-y: 65%;
+}
+
+#blogBanner {
+    background-image: url("/Images/DeskCropped.jpg");
+    background-position-y: 65%;
+}
+
+#liteBanner {
+    background-image: url("/Images/DungeonCropped.jpg");
+    background-position-y: 20%;
+}
 
 
 
