@@ -49,3 +49,15 @@ details summary:hover {
     cursor: pointer;
     background-color: lightgray;
 }
+
+
+.rightcolumn .localnav h4 {
+    padding-left: 15px;
+}
+.rightcolumn .localnav a {
+    padding-left: 30px;
+    text-decoration: none;
+}
+.rightcolumn .localnav a:hover {
+    color: white;
+}

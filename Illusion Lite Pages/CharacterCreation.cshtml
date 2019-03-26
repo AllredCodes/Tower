@@ -52,7 +52,7 @@
             World of Illusion can refer to the "Races" section under the core rules.
         </p>
         
-        <table id="Race">
+        <table id="FullTable">
             <tr>
                 <th>Race</th> <th>Bonus</th> <th>Penalty</th>
             </tr>
@@ -185,7 +185,7 @@
             gained from selecting the identity and the last column is the additional bonus one might gain such as character features or equipment.
         </p>
 
-        <table>
+        <table id="FullTable">
             <tr>
                 <th>Identity</th>
                 <th>Bonus Skills</th>
@@ -263,16 +263,231 @@
     <div class="card" id="SpendingSkillPoints">
         <h2>Spending Skill Points</h2>
 
+        <p>
+            Skills are like attributes but more specific to various situations. There are 6 skill groups, one for each attribute and, as a result, 
+            each skill has a constituting attribute score. 
+        </p>
+        <p>
+            Rather than having a pool of generic skill points to assign from, each character generates points into 6 groups, one for each attribute. 
+            These skill points can only be spent on skills that are governed by the same attribute that generated the points. This means that if a 
+            character has a Might score of 3, they would generate 3 Might Skill Points that can only be spent on Might Skills. Skill points are spent 
+            one to one, so all points of each attribute can be spent on one skill or as many different skills as the player has points for, within 
+            the attribute’s skill options. The only stipulation, however, is that a skill’s score cannot exceed the score of its governing attribute. 
+            If a situation is created where that one rule must be broken for all skill points to be spent, the unspent skills points are instead lost, so allocate wisely!
+        </p>
+        <p>
+            Below is the list of skills. There’s only a small amount of information on this page, but to read more about each skill in greater detail, 
+            you can head over to [the section on skills]. <strong>When assigning skill points, don’t forget about the additional skills points generated 
+            by your character’s identity!</strong>
+        </p>
+
+        <table id="FullTable">
+            <tr>
+                <th>Skill Name</th>
+                <th>Governing Attribute</th>
+                <th>Application</th>
+            </tr>
+            <tr id="Might">
+                <td>Hand Weapon</td>
+                <td>Might</td>
+                <td>One’s aptitude with one handed weapons of all types</td>
+            </tr>
+            <tr id="Might">
+                <td>2 Handed Weapon</td>
+                <td>Might</td>
+                <td>One’s aptitude with two handed weapons of all types</td>
+            </tr>
+            <tr id="Might">
+                <td>Athletics</td>
+                <td>Might</td>
+                <td>One’s upper body strength training. Used to swim, climb, lift, push, bend, break, and anything else one could use raw brawn for</td>
+            </tr>
+            <tr id="Might">
+                <td>Abandon</td>
+                <td>Might</td>
+                <td>One’s ability to relinquish reason in favor of duty. Used as a taunt and to intimidate</td>
+            </tr>
+            <tr id="Control">
+                <td>Ranged Weapon</td>
+                <td>Control</td>
+                <td>One’s aptitude with ranged weapons of all types</td>
+            </tr>
+            <tr id="Control">
+                <td>Dodge</td>
+                <td>Control</td>
+                <td>One’s aptitude for actively avoiding attacks or hazards</td>
+            </tr>
+            <tr id="Control">
+                <td>Acrobatics</td>
+                <td>Control</td>
+                <td>One’s lower body strength training. Used to jump, balance, run, and anything else one could use their legs for</td>
+            </tr>
+            <tr id="Control">
+                <td>Sleight of Hands</td>
+                <td>Control</td>
+                <td>One’s control over their hands. Used to perform extremely fine tasks with one’s hands and fingers</td>
+            </tr>
+            <tr id="Control">
+                <td>Stealth</td>
+                <td>Control</td>
+                <td>One’s capacity for concealing their own presents. Used to avoid detection</td>
+            </tr>
+            <tr id="Vigor">
+                <td>Endure</td>
+                <td>Vigor</td>
+                <td>The power of one’s core. Used to take all manor of punishment that might break a normal individual</td>
+            </tr>
+            <tr id="Vigor">
+                <td>Digest</td>
+                <td>Vigor</td>
+                <td>The potency of one’s gut. Used to drink poisons without being effected</td>
+            </tr>
+            <tr id="Vigor">
+                <td>Defend</td>
+                <td>Vigor</td>
+                <td>One’s aptitude for actively blocking incoming attacks</td>
+            </tr>
+            <tr id="Logic">
+                <td>Process</td>
+                <td>Logic</td>
+                <td>One’s ability to understand information as it’s happening. Can be used to force the game master into explicitly divulging information 
+                    that your characters would be able to piece together about a situation</td>
+            </tr>
+            <tr id="Logic">
+                <td>Evaluate</td>
+                <td>Logic</td>
+                <td>One’s ability to analyze and appraise artifacts, writings, or currency.  </td>
+            </tr>
+            <tr id="Logic">
+                <td>Lore (society)</td>
+                <td>Logic</td>
+                <td>One’s knowledge regarding civilization and all it’s goings ons. Politics, neighborhoods, streets, important figures, and more.</td>
+            </tr>
+            <tr id="Logic">
+                <td>Lore (wilderness)</td>
+                <td>Logic</td>
+                <td>One’s knowledge regarding anything outside of civilization while still being above ground. Plants, animals, forests, bandit group tendencies, 
+                    beasts of the land, and more.</td>
+            </tr>
+            <tr id="Logic">
+                <td>Lore (dungeon)</td>
+                <td>Logic</td>
+                <td>One’s knowledge regarding anything underground. Stonework, dungeon layouts, monsters of the underground, and more.</td>
+            </tr>
+            <tr id="Logic">
+                <td>Lore (myth)</td>
+                <td>Logic</td>
+                <td>One’s knowledge regarding anything that might be regarded as less than true by some. This can include actual myths, but it’s uses are 
+                    primarily going to be regarding gods, religions, and unusual monsters.</td>
+            </tr>
+            <tr id="Logic">
+                <td>Strategy</td>
+                <td>Logic</td>
+                <td>One’s familiarity with the battlefield and the flow of combat. Can be used to confer bonuses to ally’s attack or penalties to enemy attacks. </td>
+            </tr>
+            <tr id="Reason">
+                <td>Perception</td>
+                <td>Reason</td>
+                <td>One’s ability to identify fine details that might evade other’s notice. Used to find traps, hidden pathways, concealed enemies, and more</td>
+            </tr>
+            <tr id="Reason">
+                <td>Intuition</td>
+                <td>Reason</td>
+                <td>One’s ability to sense information that they might not otherwise be privy to. Used to determine the threat level of a situation and the 
+                    trustworthiness of individuals and information</td>
+            </tr>
+            <tr id="Reason">
+                <td>Nerve</td>
+                <td>Reason</td>
+                <td>One’s ability to disregard their own self preservation senses. Used to overcome fear effects and gruesome sights</td>
+            </tr>
+            <tr id="Reason">
+                <td>Heal</td>
+                <td>Reason</td>
+                <td>One’s ability to implement healing materials effectively. Used to recover health and status conditions with the use of healing materials</td>
+            </tr>
+            <tr id="Disposition">
+                <td>Charm</td>
+                <td>Disposition</td>
+                <td>One’s ability to socially disarm others through flattery. Used to gain the favor of those who would otherwise be less warm to the player. </td>
+            </tr>
+            <tr id="Disposition">
+                <td>Deceive</td>
+                <td>Disposition</td>
+                <td>One’s ability to conceal information from others. Used to lie, with very broad contexts</td>
+            </tr>
+            <tr id="Disposition">
+                <td>Haggle</td>
+                <td>Disposition</td>
+                <td>One’s ability to drive the pace of commerce. Used to strike deals inside and outside of the confines of currency. </td>
+            </tr>
+            <tr id="Disposition">
+                <td>Leadership</td>
+                <td>Disposition</td>
+                <td>One’s ability to influence allies to push beyond their normal limits and to demand the respect of strangers. Has a broad range of uses.</td>
+            </tr>
+        </table>
+
+        <p>
+            Remember when choosing skills that a character doesn't have to be good everything on their own. Players should understand that the nature of the game is to rely on one another
+            for good situational coverage. Once players are done distributing their skill points, they're ready to move on to the next step of character creation. 
+        </p>
     </div>
 
 
+    <div class="card" id="PickingFeatures">
+        <h2>Picking Features</h2>
+    
+        <p>
+            Features are special bonuses or abilities that your character can access by selecting them during character creation or while leveling up. 
+            These can be special moves to perform in combat, different ways to use a character’s existing skills, improvements to a character’s attribute 
+            scores, and more. Features add a lot of character to the game and are, in a lot of ways, the heart of Illusion!
+        </p>
+        <p>
+            Players might find that their options for what they can do during the game seem limited, but features are ultimately geared toward allowing players to
+            tweak their character to play how they think it should.
+        </p>
+        <p>
+            For example: Characters are not able to move and attack in the same action by default, but the Charge Attack enables that particular behavior if selected.
+            As a result, some players might think that taking Charge Attack is a given, <em>however</em> if a player wanted their character to be a strategist, issuing
+            attack orders to allies rather than ever attacking on their own, that feature point would certainly be more well spend elsewhere (might I suggest Tactician?).
+        </p>
+        <p>
+            Not all, but most features will have one or more prerequisite before your character can take it. Prerequisites are simple requirements that must be met before
+            the feature can be taken onto your character. These come in 3 forms;
+        </p>   
 
+        <ul>
+            <li><strong>Score Gate:</strong> These require that certain attribute or skill score minimums are met</li>
+            <li><strong>Feature Branch:</strong> These require that other features have been picked beforehand</li>
+            <li><strong>Core:</strong> Core features can only be taken during character creation</li>
+        </ul>
+
+        <p>    
+            During character creation, each player may select 2 features for their character. Listed below are the features with the <strong>Core</strong> prerequisite, but 
+            more features are available in [the section on Features.]
+        </p>
+
+
+
+    </div>
 </div>
 
 
 <div class="rightcolumn">
-    <div class="card" id="NavBar">
+    <div class="card">
         <div w3-include-html="~/Illusion Lite Pages/IllusionLiteNavigationBar.html"></div>
         <script> includeHTML(); </script>
+    </div>
+
+    <div class="subCard localnav">
+        <h4>Character Creation</h4>
+        <a href="/Illusion Lite Pages/CharacterCreation#CharacterCreation"> Overview </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickRace"> Picking a Race </a>  <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#GenerateAttributes"> Generating Attributes </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickIdentity"> Choosing an Identity </a>     <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#SpendingSkillPoints"> Spending Skill Points </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickingFeatures"> Picking Features </a>         <br />
+        <a href="/Illusion Lite Pages/CharacterCreation"> Generating Wealth </a>        <br />
     </div>
 </div>

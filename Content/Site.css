@@ -498,7 +498,7 @@ input[type="checkbox"].input-validation-error {
 
 /* tables
 ----------------------------------------------------------*/
-table #Race {
+table #FullTable {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -512,6 +512,8 @@ table #Race {
 
 th{
     border: 1px solid #dddddd;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 8px;
 }
@@ -519,6 +521,25 @@ th{
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+tr + #Might {
+    background-color: #ffd8d8;
+}
+tr + #Control {
+    background-color: #d8eaff;
+}
+tr + #Vigor {
+    background-color: #d8ffdb;
+}
+tr + #Logic {
+    background-color: #fffdd8;
+}
+tr + #Reason {
+    background-color: #dddddd;
+}
+tr + #Disposition {
+    background-color: #fcd8ff;
+}
+
 
 td {
     padding: 0.25em 1em 0.25em 0.5em;
