@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Attributes";
+}
+<script src="~/Scripts/IncludeHTML.js"></script>
+
+@section featured {
+    <div id="liteBanner">
+        <h1><span>&nbsp; Illusion Lite &nbsp;</span></h1>
+    </div>
+}
+
+<div class="leftcolumn">
+    <div class="card">
+
+
+    </div>
+
+
+</div>
+
+
+
+
+<div class="rightcolumn">
+    <div class="card">
+        <div w3-include-html="~/Illusion Lite Pages/IllusionLiteNavigationBar.html"></div>
+        <script> includeHTML(); </script>
+    </div>
+
+    <div class="subCard localnav">
+        <h4>Character Creation</h4>
+        <a href="/Illusion Lite Pages/CharacterCreation#CharacterCreation"> Overview </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickRace"> Picking a Race </a>  <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#GenerateAttributes"> Generating Attributes </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickIdentity"> Choosing an Identity </a>     <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#SpendingSkillPoints"> Spending Skill Points </a>    <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#PickingFeatures"> Picking Features </a>         <br />
+        <a href="/Illusion Lite Pages/CharacterCreation#GeneratingWealth"> Generating Wealth </a>        <br />
+    </div>
+</div>
