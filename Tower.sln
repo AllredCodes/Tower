@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tower", ".", "{BFBC339D-639C-46DC-91E8-C133F6B47B81}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64330"
+		Debug.AspNetCompiler.PhysicalPath = "..\Tower\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64330\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64330"
+		Release.AspNetCompiler.PhysicalPath = "..\Tower\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64330\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64330"
+		SlnRelativePath = "..\Tower\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Publish|Any CPU = Publish|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBC339D-639C-46DC-91E8-C133F6B47B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBC339D-639C-46DC-91E8-C133F6B47B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBC339D-639C-46DC-91E8-C133F6B47B81}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBC339D-639C-46DC-91E8-C133F6B47B81}.Publish|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CDE48A6-F2DA-4FFD-80D0-A016C808CB9A}
+	EndGlobalSection
+EndGlobal
